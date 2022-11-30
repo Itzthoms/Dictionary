@@ -1,7 +1,8 @@
-const url = "https://fj5sznxet5.execute-api.us-east-1.amazonaws.com/development/dictionary-contents/";
+const url = "https://qdbu6iinp8.execute-api.eu-north-1.amazonaws.com/first-stage/dictionary?";
 const result = document.getElementById("result");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
+
 btn.addEventListener("click", () => {
     let inpWord = document.getElementById("inp-word").value;
     fetch(`${url}${inpWord}`)
@@ -28,7 +29,7 @@ btn.addEventListener("click", () => {
             sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {
-            result.innerHTML = `<h3 class="error">Couldn't Find The Word</h3>`;
+            result.innerHTML = `<h3 class="error">Kunde inte hitta ordet :(</h3>`;
         });
 });
 function playSound() {

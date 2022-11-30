@@ -23,24 +23,30 @@
               "antonyms": []
             }
           ]
+        }
+      ]
+    }
+,
+    {
+      "word": "goodbye",
+      "phonetic": "gud-bi",
+      "phonetics": [
+        {
+          "text": "gud-bi",
+          "audio": "//ssl.gstatic.com/dictionary/static/sounds/20200429/goodbye--_gb_1.mp3"
         },
         {
-          "partOfSpeech": "noun",
-          "definitions": [
-            {
-              "definition": "an utterance of ‘hello’; a greeting.",
-              "example": "she was getting polite nods and hellos from people",
-              "synonyms": [],
-              "antonyms": []
-            }
-          ]
-        },
+          "text": "gud-bi"
+        }
+      ],
+      "origin": "Meaning to wish someone farewell",
+      "meanings": [
         {
-          "partOfSpeech": "verb",
+          "partOfSpeech": "exclamation",
           "definitions": [
             {
-              "definition": "say or shout ‘hello’.",
-              "example": "I pressed the phone button and helloed",
+              "definition": "Meaning to wish someone farewell.",
+              "example": "Goodbye, Katie!",
               "synonyms": [],
               "antonyms": []
             }
@@ -48,4 +54,5 @@
         }
       ]
     }
-  ]
+]
+
