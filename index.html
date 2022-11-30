@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+        <!-- Google Fonter -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="gy.css" />
+        <title>Tompas Ordbok</title>
+    </head>
+    <body>
+        <audio id="sound"></audio>
+        <div class="container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Skriv ett ord här..."
+                    id="inp-word"
+                />
+                <button id="search-btn">Sök</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+        <!-- Min sökfunktion -->
+        <script src="search.js"></script>
+    </body>
+</html>

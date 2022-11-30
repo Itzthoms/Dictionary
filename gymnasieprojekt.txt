@@ -1,0 +1,21 @@
+Start:
+Ver. 1
+HTML, CSS & Javascript
+
+
+----
+Ver 2.
+Utséende Overhaul
+
+----
+Ver.3
+Implementeringen av Javascript
+samt problem.
+
+-----
+Ver 4.
+* Databas med JSON och Databas
+* Skapade en API för Javascript med AWS för att ha en databas.
+* Samt utséende overhaul
+
+
